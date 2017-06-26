@@ -13,5 +13,5 @@ public class HomeController {
     public String index() {
         return "index";
     }
-
+    ////Sort of like a table of contents
 }

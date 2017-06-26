@@ -1,6 +1,6 @@
 package org.launchcode.models.data;
 
-import org.launchcode.models.Job;
+import org.launchcode.models.CoreCompetency;
 import org.launchcode.models.JobField;
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * Created by LaunchCode
  */
 public class JobFieldData<T extends JobField> {
-
+//Defines how certain classes should behave.
     private ArrayList<T> allFields = new ArrayList<>();
 
     public ArrayList<T> findAll() {
@@ -38,4 +38,7 @@ public class JobFieldData<T extends JobField> {
         return null;
     }
 
+    public CoreCompetency findById() {
+        return null;
+    }
 }

@@ -117,4 +117,7 @@ public class JobData {
     public JobFieldData<PositionType> getPositionTypes() {
         return positionTypes;
     }
+
+    public void getName() {
+    }
 }
